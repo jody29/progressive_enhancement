@@ -2,3 +2,47 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    background-color: aliceblue;
+}
+
+body {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li::before{
+    content: '\2713 ';
+    width: 20px;
+    height: 20px;
+}
+
+main {
+   
+    display: flex;
+    flex-direction: column;
+}
+
+main section {
+    margin: 1.5em 0;
+}
+
+main section h2 {
+    margin-bottom: .2em;
+}
+
+h2::first-letter {
+    font-family: 'Inspiration', cursive;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+main section p::first-letter, ul li::first-letter{
+text-transform: capitalize;
+}
+
