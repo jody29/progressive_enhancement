@@ -1,6 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
 html{
@@ -8,8 +7,26 @@ html{
 }
 
 body {
-    max-width: 95%;
-    margin: 0 auto;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    height: 20em;
+    background-position: center;
+    background-color: wheat;
+    background-image: url(/img/cake.gif);
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 1em 2em;
+    color: white;
 }
 
 ul li {
@@ -23,7 +40,7 @@ ul li::before{
 }
 
 main {
-   
+   padding: 0 4em;
     display: flex;
     flex-direction: column;
 }
@@ -34,15 +51,18 @@ main section {
 
 main section h2 {
     margin-bottom: .2em;
+    font-weight: bold;
 }
 
-h2::first-letter {
-    font-family: 'Inspiration', cursive;
-    font-size: 2em;
-    font-weight: 700;
+img {
+    width: 50%;
 }
 
 main section p::first-letter, ul li::first-letter{
 text-transform: capitalize;
+}
+
+footer {
+    padding: 0 4em;
 }
 
