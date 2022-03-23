@@ -1,4 +1,4 @@
-# bron: https://alistapart.com/article/understandingprogressiveenhancement/
+## bron: https://alistapart.com/article/understandingprogressiveenhancement/
 
 - Progressive enhancement is zorgen dat op verschillende browsers en apparaten de website nog werkt. 
 - Het gaat hierbij om de basis functionaliteit van een website.
