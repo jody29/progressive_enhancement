@@ -26,3 +26,28 @@
 
 ### Contrastverhouding tool
 <img width="233" alt="Schermafbeelding 2022-04-07 om 19 31 49" src="https://user-images.githubusercontent.com/66092262/162262522-34a4cfef-44ef-4a11-8756-4e602c03a053.png">
+
+## Javascript uitzetten
+<img width="602" alt="Schermafbeelding 2022-04-07 om 19 40 45" src="https://user-images.githubusercontent.com/66092262/162264081-ad9b06d0-63cb-4edf-8288-b7e1e21c6236.png">
+<img width="603" alt="Schermafbeelding 2022-04-07 om 19 40 55" src="https://user-images.githubusercontent.com/66092262/162264111-19203af7-0ac3-4fd5-a827-2f2b3d7f0bf9.png">
+
+Gemiddeld 1.3% van de internetgebruikers heeft javascript uit staan.
+
+### Waarom zetten gebruikers javascript uit?
+* Beveiliging: Client browsers kunnen kwaadaardige code in je computer zetten die je computer verslechteren. Door javascript uit te zetten gebeurd dit niet.
+* Browser support: Niet elke browser kan javascript zo goed mogelijk uitvoeren, omdat het bepaalde code andere interperteert dan andere browsers. Hierdoor krijg je inconsistentie in functionaliteiten. Door javascript uit te zetten weet je zeker dat de webpagina laad, zoals hij bedoeld is.
+* PLug-ins en cookies: Veel gebruikers zijn bang dat bedrijven hun internetgebruik kunnen tracken. Door Javascript uit te zitten zullen de cookies die bijhouden wat je op internet doet niet meer functioneren.
+
+### Hoe kun je JavaScript uitzetten?
+<img width="402" alt="Schermafbeelding 2022-04-07 om 19 41 09" src="https://user-images.githubusercontent.com/66092262/162264148-66699e46-c26a-4e90-9572-383dde0b1215.png">
+
+### Wat voor problemen kan het opleveren?
+Als je een website volledig met bijvoorbeeld React gaat bouwen, dan zal de gehele website het niet meer doen op het moment dat je gebruiker Javascript heeft uitgeschakeld.
+
+<img width="602" alt="Schermafbeelding 2022-04-07 om 19 41 24" src="https://user-images.githubusercontent.com/66092262/162264181-61a786ca-0d9f-4248-addf-81ec388ae2b6.png">
+
+Ook zullen formulieren die door javascript worden gevalideerd niet meer worden gevalideerd en kan de gebruiker invullen wat hij/zij wilt.
+</br>
+</br>
+Als je met javascript een API fetch doet, dan zullen de resultaten uit deze fetch ook niet meer getoond worden. Deze resultaten kunnen wel belangrijk zijn voor je website.
+
